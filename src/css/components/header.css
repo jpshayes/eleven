@@ -1,0 +1,12 @@
+.region-header {
+  @apply flex flex-col md:flex-row items-center px-xl py-s justify-between bg-delawarebayblue mb-m md:mb-l;
+  ul.menu {
+    @apply m-0 border-0 flex flex-row gap-10;
+    li {
+      @apply border-0;
+      a {
+        @apply text-amtrakgrey border-none;
+      }
+    }
+  }
+}

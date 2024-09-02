@@ -1,0 +1,76 @@
+/* src/css/main.css */
+/* Import custom framework and component styles first */
+@import "./framework.css";
+@import "./fonts.css";
+@import "./layout.css";
+@import "./typography.css";
+@import "./components/brand.css";
+@import "./components/menu.css";
+@import "./components/header.css";
+@import "./components/footer.css";
+@import "./components/media.css";
+@import "./components/node.css";
+
+@layer components {
+  .custom-button {
+    @apply bg-blue-500 text-white py-2 px-4 rounded;
+  }
+}
+
+@layer utilities {
+  .flow > * {
+    margin-block: 0;
+  }
+
+  .flow > * + * {
+    margin-block-start: var(--flow-space, 1.5rem);
+    margin-top: var(--flow-space, 1em);
+  }
+
+  .flow > .hidden + * {
+    margin-top: 0;
+  }
+  .flow-space-3xs {
+    --flow-space: var(--space-3xs);
+  }
+  .flow-space-2xs {
+    --flow-space: var(--space-2xs);
+  }
+  .flow-space-xs {
+    --flow-space: var(--space-xs);
+  }
+  .flow-space-s {
+    --flow-space: var(--space-s);
+  }
+  .flow-space-m {
+    --flow-space: var(--space-m);
+  }
+  .flow-space-l {
+    --flow-space: var(--space-l);
+  }
+  .flow-space-xl {
+    --flow-space: var(--space-xl);
+  }
+  .flow-space-2xl {
+    --flow-space: var(--space-2xl);
+  }
+  .flow-space-3xl {
+    --flow-space: var(--space-3xl);
+  }
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* spacing: {
+    "3xs": "var(--space-3xs)",
+    "2xs": "var(--space-2xs)",
+    xs: "var(--space-xs)",
+    s: "var(--space-s)",
+    m: "var(--space-m)",
+    l: "var(--space-l)",
+    xl: "var(--space-xl)",
+    "2xl": "var(--space-2xl)",
+    "3xl": "var(--space-3xl)",
+  }, */

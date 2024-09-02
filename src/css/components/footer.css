@@ -1,0 +1,5 @@
+.region-footer {
+  .block {
+    @apply container border-t-4 border-amtrakgrey mx-auto py-m mt-xl gap-10 text-right;
+  }
+}

@@ -1,0 +1,3 @@
+.field--name-body {
+  @apply flow flow-space-s md:flow-space-m;
+}

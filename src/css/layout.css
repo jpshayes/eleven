@@ -1,0 +1,12 @@
+main[role="main"] {
+  @apply flex flex-col md:flex-row container mx-auto gap-xs px-s md:px-0;
+  .layout-content {
+    @apply flex-1 order-1 md:order-2;
+  }
+  .layout-sidebar-first {
+    @apply order-2 md:order-1;
+  }
+  .layout-sidebar-second {
+    @apply order-3;
+  }
+}

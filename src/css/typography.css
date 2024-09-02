@@ -1,0 +1,12 @@
+body {
+  font-family: "Noto Sans", sans-serif;
+}
+h1.page-title {
+  @apply text-step-5 font-semibold text-gray-900;
+  font-family: "Poppins", sans-serif;
+}
+
+.block h2 {
+  @apply text-step-2 font-bold text-delawarebayblue;
+  font-family: "Poppins", sans-serif;
+}

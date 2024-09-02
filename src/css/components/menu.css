@@ -1,0 +1,12 @@
+ul.menu {
+  @apply mx-0 my-xs list-none;
+  li {
+    @apply list-none list-image-none;
+    a {
+      @apply border-amtrakgrey border-0 border-l-4 pl-xs transition-colors duration-300 ease-in-out;
+      &:hover {
+        @apply border-truered text-unionblue;
+      }
+    }
+  }
+}
