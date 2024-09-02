@@ -1,3 +1,15 @@
+.node__content {
+  @apply flow flow-space-s md:flow-space-m;
+}
 .field--name-body {
   @apply flow flow-space-s md:flow-space-m;
+}
+.field--name-field-image .field__item img {
+  @apply mx-auto;
+}
+
+.node--type-post {
+  .field--name-body {
+    @apply max-w-prose mx-auto;
+  }
 }
