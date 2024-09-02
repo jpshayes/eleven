@@ -1,0 +1,41 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+
+# Package lock file
+package-lock.json
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Compiled source files
+*.css
+*.map
+
+# Images
+screenshot.png
+
+# Other configurations and IDE files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+*.swp
+
+# Backup files
+*.bak
+*.tmp
+*~
+
+# Ignore custom fonts or assets (if applicable)
+fonts/
+assets/
+
